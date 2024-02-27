@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Area_Spherical_Triangle", "Spherical_Triangles\Area_Spherical_Triangle.csproj", "{92F9A430-0A0E-464A-A62A-9D950FDF96F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oblique_Spherical_Triangle", "Oblique_Spherical_Triangle\Oblique_Spherical_Triangle.csproj", "{D33B51CE-5198-4600-A249-70EE39986512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rightangle_Spherical_Triangle", "Rightangle_Spherical_Triangle\Rightangle_Spherical_Triangle.csproj", "{6E2FB500-EBF1-4E73-AF3E-D99D38F9C264}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92F9A430-0A0E-464A-A62A-9D950FDF96F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F9A430-0A0E-464A-A62A-9D950FDF96F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F9A430-0A0E-464A-A62A-9D950FDF96F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F9A430-0A0E-464A-A62A-9D950FDF96F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33B51CE-5198-4600-A249-70EE39986512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33B51CE-5198-4600-A249-70EE39986512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33B51CE-5198-4600-A249-70EE39986512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33B51CE-5198-4600-A249-70EE39986512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2FB500-EBF1-4E73-AF3E-D99D38F9C264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2FB500-EBF1-4E73-AF3E-D99D38F9C264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2FB500-EBF1-4E73-AF3E-D99D38F9C264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2FB500-EBF1-4E73-AF3E-D99D38F9C264}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C96D0D4-5E94-4B44-86F1-88F02995C2AD}
+	EndGlobalSection
+EndGlobal
