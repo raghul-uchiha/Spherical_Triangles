@@ -7,13 +7,13 @@ class Program
     { 
         // let us assume right angled at c
         double angleC = 90;
-        Console.Write("Enter the side A:");
+        Console.WriteLine("Welcome User to Right angled Spherical Triangle Calculation");
+        Console.Write("Enter the side A(Degrees):");
         double sideA = int.Parse(Console.ReadLine())*(Math.PI/180);
-        Console.Write("Enter the side B:");
+        Console.Write("Enter the side B(Degrees):");
         double sideB = int.Parse(Console.ReadLine())*(Math.PI/180);
         double cosc = (Math.Cos(sideA) * Math.Cos(sideB));
         double sideC = Math.Acos(cosc) * (180 / Math.PI);
-        Console.Write($"cosC:{cosc}");
 
         // initial assumption let us consider angleC be 90
         double CosA = (Math.Cos(sideA) - (Math.Cos(sideB) * Math.Cos(sideC))) / Math.Sin(sideB) * Math.Sin(sideC);// to find the angleA
@@ -25,7 +25,7 @@ class Program
         Console.WriteLine($"the angleA:{angleA} degree");
         Console.WriteLine($"the angleB:{angleB} degree");
         Console.WriteLine($"the angleC:{angleC} degree");
-        Console.WriteLine($"the sideC:{sideC}");
+        Console.WriteLine($"the sideC:{sideC} Radians");
         // 
         if (sumAngle >= 180 && sumAngle <= 540)
         {
