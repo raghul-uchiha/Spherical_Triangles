@@ -8,9 +8,9 @@ class Program
         // let us assume right angled at c
         double angleC = 90;
         Console.Write("Enter the side A:");
-        double sideA = int.Parse(Console.ReadLine());
+        double sideA = int.Parse(Console.ReadLine())*(Math.PI/180);
         Console.Write("Enter the side B:");
-        double sideB = int.Parse(Console.ReadLine());
+        double sideB = int.Parse(Console.ReadLine())*(Math.PI/180);
         double cosc = (Math.Cos(sideA) * Math.Cos(sideB));
         double sideC = Math.Acos(cosc) * (180 / Math.PI);
         Console.Write($"cosC:{cosc}");
