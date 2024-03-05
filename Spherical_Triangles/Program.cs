@@ -9,7 +9,7 @@ class Program
 
         do
         {
-            Console.WriteLine("Enter the three angles of the spherical triangle:");
+            Console.WriteLine("Enter the three vertex angles of the spherical triangle:");
             Console.Write("Angle 1 (degrees): ");
             angle1 = ReadPositiveAngle();
             Console.Write("Angle 2 (degrees): ");
@@ -42,7 +42,7 @@ class Program
         double radius = double.Parse(Console.ReadLine()); // Assuming unit radius
         double area = sphericalExcess * Math.Pow(radius, 2);
 
-        Console.WriteLine("Area of the spherical triangle: " + area + " square metre");
+        Console.WriteLine("Area of the spherical triangle: " + area + "metre square");
     }
 
     // Helper method to convert degrees to radians
@@ -64,7 +64,7 @@ class Program
             }
             else
             {
-                Console.WriteLine("Please enter a positive number less than or equal to 180 for the angle.");
+                Console.WriteLine("Please enter a positive number less than or equal to 180 of vertex angle.");
             }
         } while (true);
     }
